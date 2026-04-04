@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- підключення віддалених шифтів -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap"
+		rel="stylesheet">
+	<!-- Піключення локальних шрифтів -->
+	<link rel="stylesheet" href="css/fonts.css">
+	<!-- Обнулення стилів -->
+	<link rel="stylesheet" href="css/reset.css">
+	<!-- Файл стилів -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<title>Homework_4</title>
+</head>
+
+<body>
+	<header class="header">
+		<h1 class="header-title">
+			CSS властивості шрифту та тексту
+		</h1>
+		<nav class="menu">
+			<ul class="menu-list">
+				<li class="menu-item"><a href="#size">Властивість font-size</a></li>
+				<li class="menu-item"><a href="#style">Властивість font-style</a></li>
+				<li class="menu-item"><a href="#weight">Властивість font-weight</a></li>
+				<li class="menu-item"><a href="#align">Властивість text-align</a></li>
+				<li class="menu-item"><a href="#decor">Властивість text-decoration</a></li>
+				<li class="menu-item"><a href="#shadow">Властивість text-shadow</a></li>
+				<li class="menu-item"><a href="#transform">Властивість text-transform</a></li>
+				<li class="menu-item"><a href="#height">Властивість line-height</a></li>
+				<li class="menu-item"><a href="#letter-spacing">Властивість letter-spacing</a></li>
+				<li class="menu-item"><a href="#white-space">Властивість white-space</a></li>
+				<li class="menu-item"><a href="#word-spacing">Властивість word-spacing</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main class="main">
+		<div class="font-size">
+			<h2 id="size" class="size-title">Властивість <mark>font-size</mark></h2>
+			<p class="size-subtitle">Встановлює розмір шрифту</p>
+			<p class="size-text">Для прикладу цей текст має розмір 46px та зелений колір</p>
+		</div>
+		<div class="font-style">
+			<h2 id="style" class="style-title">Властивість <mark>font-style</mark></h2>
+			<p class="style-subtitle">Встановлює стиль шрифту</p>
+			<p class="style-text">Для прикладу цей текст має звичайний стиль (за замовчуванням)</p>
+			<p id="italic" class="style-text">Для прикладу цей текст має курсив</p>
+			<p id="oblique" class="style-text">Для прикладу цей текст має нахлені літери</p>
+		</div>
+		<div class="font-weight">
+			<h2 id="weight" class="weight-title">Властивість <mark>font-weight</mark></h2>
+			<p class="weight-subtitle">Встановлює нсиченості (товщину) шрифту</p>
+			<p class="weight-thin">Для прикладу цей текст має товщину 100</p>
+			<p class="weight-extralight">Для прикладу цей текст має товщину 200</p>
+			<p class="weight-light">Для прикладу цей текст має товщину 300</p>
+			<p class="weight-regular">Для прикладу цей текст має товщину 400</p>
+			<p class="weight-medium">Для прикладу цей текст має товщину 500</p>
+			<p class="weight-sbold">Для прикладу цей текст має товщину 600</p>
+			<p class="weight-bold">Для прикладу цей текст має товщину 700</p>
+			<p class="weight-exbold">Для прикладу цей текст має товщину 800</p>
+			<p class="weight-black">Для прикладу цей текст має товщину 900</p>
+		</div>
+		<div class="text-align">
+			<h2 id="align" class="align-title">Властивість <mark>text-align</mark></h2>
+			<p class="align-subtitle">Вирівнює текст</p>
+			<p class="align-right">Для прикладу цей текст буде справа</p>
+			<p class="align-left">Для прикладу цей текст буде зліва</p>
+			<p class="align-center">Для прикладу цей текст буде по центру</p>
+			<p class="align-justify">Для прикладу цей текст буде розміщено на всю ширину</p>
+		</div>
+		<div class="text-decor">
+			<h2 id="decor" class="decor-title">Властивість <mark>text-decoration</mark></h2>
+			<p class="decor-subtitle">Додає тексту певного оформлення</p>
+			<p class="decor-line">Для прикладу цей текст буде зкреслено</p>
+			<p class="decor-uline">Для прикладу цей текст буде підкресленим</p>
+			<p class="decor-oline">Для прикладу цей текст буде мати лінію над текстом</p>
+		</div>
+		<div class="text-shadow">
+			<h2 id="shadow" class="shadow-title">Властивість <mark>text-shadow</mark></h2>
+			<p class="shadow-subtitle">Додає тексту тінь</p>
+			<p class="shadow-text">Для прикладу цей текст буде мати ось таку тінь</p>
+		</div>
+		<div class="text-transform">
+			<h2 id="transform" class="text-transform">Властивість <mark>text-transform</mark></h2>
+			<p class="transform-subtitle">Змінює регістр тексту</p>
+			<p class="transform-cap">Для прикладу цей текст кожне слово, якоо починається з великої літери</p>
+			<p class="transform-lav">Для прикладу цей текст, де всі літери прописні</p>
+			<p class="transform-up">Для прикладу цей текст, де всі літери великі</p>
+		</div>
+		<div class="line-height">
+			<h2 id="height" class="line-height">Властивість <mark>line-height</mark></h2>
+			<p class="height-subtitle">Визначає міжрядковий інтервал</p>
+		</div>
+		<div class="letter-spacing">
+			<h2 id="letter-spacing" class="letter-spacing">Властивість <mark>letter-spacing</mark></h2>
+			<p class="letter-spacing">Визначає інтервалу між літерами (символами)</p>
+		</div>
+		<div div class="white-space">
+			<h2 id="white-space" class="white-space">Властивість <mark>white-space</mark></h2>
+			<p class="white-space">Управління поведінкою пробілів між словами</p>
+		</div>
+		<div div class="word-spacing">
+			<h2 id="word-spacing" class="word-spacing">Властивість <mark>white-space</mark></h2>
+			<p class="word-spacing">Встановлює інтервал між словами</p>
+		</div>
+		<div class="homework">
+			<h3 class="homework-title">Grown <span>by Nature</span></h3>
+			<p class="homewrk-subtitle">
+				We grow our crops naturally. We are a fast-growing agricultural technology company
+				passionate about ensuring food security. We leverage our technology to improve productivity & sales to
+				promote food security for you and your family.
+			</p>
+		</div>
+	</main>
+
+
+
+
+
+	<footer class="footer">
+		<p class="footer-text">© 2026</p>
+	</footer>
+
+</body>
+
+</html>

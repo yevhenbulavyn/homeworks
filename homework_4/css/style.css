@@ -1,0 +1,121 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap');
+
+body {
+	font-family: "Roboto", sans-serif;
+}
+h1 {
+	font-size: 60px;
+	text-align: center;
+	color: chartreuse;
+}
+h2 {
+	font-family: "Outfit", sans-serif;
+	font-size: 52px;
+	color: red;
+	font-weight: 700;
+}
+mark {
+	color: aqua;
+}
+.font-size {
+}
+
+.size-subtitle {
+}
+.size-text {
+	font-size: 46px;
+	color: green;
+}
+#italic {
+	font-style: italic;
+}
+#oblique {
+	font-style: oblique;
+}
+
+.weight-thin {
+	font-weight: 100;
+}
+.weight-extralight {
+	font-weight: 200;
+}
+.weight-light {
+	font-weight: 300;
+}
+.weight-regular {
+	font-weight: normal;
+}
+.weight-medium {
+	font-weight: 500;
+}
+.weight-sbold {
+	font-weight: 600;
+}
+.weight-bold {
+	font-weight: 700;
+}
+.weight-exbold {
+	font-weight: 800;
+}
+.weight-black {
+	font-weight: 900;
+}
+
+.align-right {
+	text-align: right;
+}
+.align-left {
+	text-align-last: left;
+}
+.align-center {
+	text-align: center;
+}
+.align-justify {
+	text-align: justify;
+}
+
+.decor-line {
+	text-decoration: line-through;
+}
+.decor-uline {
+	text-decoration: underline;
+}
+.decor-oline {
+	text-decoration: overline;
+}
+.shadow-text {
+	text-shadow: 5px -2px 5px fuchsia;
+}
+.transform-cap {
+	text-transform: capitalize;
+}
+.transform-lav {
+	text-transform: lowercase;
+}
+.transform-up {
+	text-transform: uppercase;
+}
+.homework {
+	font-family: "DM Sans";
+}
+.homework-title{
+	font-size: 50px;
+	color: #131313;
+	letter-spacing: -1.26px;
+
+}
+.homework-title span {
+	color:#1AAF5B;
+	font-weight: 700;
+}
+.homewrk-subtitle {
+	width: 400px;
+	height: 140px;
+	color: #000;
+font-size: 20px;
+line-height: 1.4; /* 28/20 */
+letter-spacing: -0.5px;
+text-align: left;
+opacity: 0.6;
+}
