@@ -79,6 +79,10 @@ p {
 	background-color: #B88E2F;
 	margin-bottom: 37px;
 }
+.footer {
+	margin-top: 25px;
+}
+	
 .button-text {
 	font-weight: 700;
 	text-transform: uppercase;
