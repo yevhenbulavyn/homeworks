@@ -40,7 +40,7 @@ p {
 }
 
 .homework {
-	margin-top: 40px;
+	margin-top: 30px;
 	border-radius: 10px;
 	width: 643px;
 	height: 443px;
@@ -79,10 +79,6 @@ p {
 	background-color: #B88E2F;
 	margin-bottom: 37px;
 }
-.footer {
-	margin-top: 25px;
-}
-	
 .button-text {
 	font-weight: 700;
 	text-transform: uppercase;
