@@ -1,0 +1,86 @@
+body {
+	font-family: "Poppins", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+h1, h2, h3 {
+	font-weight: 700;
+}
+
+h1 {
+	font-size: 62px;
+}
+
+h2 {
+	font-size: 58px;
+}
+
+p {
+	font-size: 24px;
+}
+
+.padding {
+}
+.padding-title {
+	padding: 30px 15px;
+}
+.padding-text {
+	padding: 20px;
+	font-size: 24px;
+}
+
+.margin {
+}
+.margin-title {
+	margin: 30px;
+}
+.margin-text {
+	margin: 20px 40px;
+}
+
+.homework {
+	margin-top: 300px;
+	border-radius: 10px;
+	width: 643px;
+	height: 443px;
+	background: #fff3e3;
+
+}
+.homework-contr {
+	padding: 60px 40px 40px;
+	margin: 0 auto;	
+}
+.homewrk-subtitle {
+	font-weight: 600;
+	letter-spacing: 3px;
+	color: #333;
+	text-transform: capitalize;
+	margin-bottom: 4px;
+}
+.homework-title {
+	font-size: 52px;
+	line-height: 125%;
+	text-transform: capitalize;
+	color: #B88E2F;
+	margin-bottom: 17px;
+}
+.homework-text {
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 133%;
+	color: #333;
+	margin-bottom: 46px;
+}
+.homework-button {
+	padding: 25px 72px;
+	width: 222px;
+	height: 74px;
+	background-color: #B88E2F;
+	margin-bottom: 37px;
+}
+.button-text {
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #fff;
+}
