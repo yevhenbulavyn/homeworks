@@ -1,0 +1,184 @@
+
+body {
+	
+}
+
+h1 {
+	font-size: 60px;
+	text-align: center;
+	font-weight: 700;
+}
+
+h2 {
+	font-size: 40px;
+	font-weight: 500;
+}
+
+p, a {
+	font-size: 18px;
+}
+
+.menu {
+	padding: 20px;
+}
+
+.border, .outline, 
+.radius, .shadow, .background {
+	text-align: center;
+	padding: 20px;
+	margin-bottom: 30px;
+}
+
+.border-subtitle, .outline-subtitle, 
+.radius-subtitle, .shadow-subtitle {
+	padding-top: 10px;
+}
+
+.border {
+	border: 15px dotted green;
+}
+
+.outline {
+	outline: 10px solid red; 
+	max-width: 900px;
+	margin-left: 100px;
+}
+
+.radius {
+	border: 5px solid yellowgreen;
+	border-radius: 13px;
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+.shadow {
+	color: beige;
+	box-shadow: inset 5px 5px 30px 10px red;
+	background-color: blue;
+}
+
+.circle {
+	margin-left: 50px;
+	width: 200px;
+	height: 200px;
+	background-color: #7a956b;
+	border-radius: 50%;
+}
+
+.image {
+	background-image: url(../img/2012.jpg);
+	min-height: 130px;
+	max-width: 250px;
+	margin: 0 auto;
+} 
+
+.image-subtitle {
+	color: #fff;
+}
+
+.gradient {
+	margin-top: 30px;
+	background: linear-gradient(90deg,rgba(106, 219, 31, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+	min-height: 500px;
+}
+
+
+.checkout {
+	font-family: "Poppins", sans-serif;
+	text-align: center;
+	background-image: url(../img/checkout-back.png);
+	margin: 0 auto;
+	padding-top: 61px;
+	padding-bottom: 97px;
+}
+.checkout-title {
+	margin-bottom: 20px;
+	font-weight: 500;
+	font-size: 48px;
+}
+.breadcrumbs {
+}
+
+.breadcrumbs-item {
+	display: inline-block;
+}
+.breadcrumbs-link {
+	font-weight: 500;
+}
+.link-light {
+	font-weight: 300;
+	margin-left: 6px;
+}
+
+.catalyst {
+	background: #030303;
+	background-image: url(../img/catalyst-back.png);
+	margin-top: 40px;
+	min-height: 342px;
+	text-align: center;
+}
+
+.catalyst-content {
+	margin: 0 auto;
+}
+
+.catalyst-title {
+	font-family: "Barlow", sans-serif;
+	font-weight: 800;
+	font-size: 64px;
+	line-height: 1.5;
+	text-transform: uppercase;
+	color: #f9efec;
+	padding-top: 94px;
+}
+.catalyst-button {
+	margin-top: 17px;
+}
+.button-text {
+	border-radius: 12px;
+	background: #0a84ff;
+	padding: 13px 79px;
+	font-family: "Roboto Flex", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 150%;
+	text-align: center;
+	color: #fff;
+}
+
+h3 {
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 1.5;
+	text-transform: uppercase;
+	color: #f9efec;
+}
+.part-three {
+	margin-top: 30px;
+	font-family: "Barlow", sans-serif;
+	font-weight: 700;
+	padding: 32px;
+	background: #1a1a1a;
+}
+
+.about p, .benefit p {
+font-size: 16px;
+line-height: 1.5;
+color: #b3b3b2;
+}
+
+.respon, .req .benefit {
+	margin-top: 24px;
+}
+
+.respon li, .req li {
+	margin-bottom: 10px;
+	background: url("../img/list.svg") 0 0 / 30px no-repeat;
+	line-height: 1.5;
+	padding-left: 40px;
+	padding-top: 3px;
+	/* Запобіжник */
+	min-height: 30px;
+	font-size: 16px;
+	color: #b3b3b2;
+}
