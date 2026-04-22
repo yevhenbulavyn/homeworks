@@ -4,28 +4,24 @@
 	padding: 0;
 	margin: 0;
 	border: none;
+
 	box-sizing: border-box;
 }
-
 *::before,
 *::after {
 	display: inline-block;
 }
-
 a {
-	display: inline-block;
 	text-decoration: none;
+	display: inline-block;
 	color: inherit;
 }
-img {
-	vertical-align: top;
-	max-width: 100%;
-}
-
 li {
 	list-style: none;
 }
-
+img {
+	vertical-align: top;
+}
 html,
 body {
 	line-height: 1;
@@ -39,13 +35,30 @@ h5,
 h6 {
 	font-weight: inherit;
 	font-size: inherit;
-	font-family: inherit;
 }
 
-button {
+/* FORM */
+input,
+button,
+textarea {
 	font-family: inherit;
 	font-size: inherit;
-	font-weight: inherit;
+	line-height: inherit;
 	color: inherit;
 	background-color: transparent;
+}
+input,
+textarea {
+	width: 100%;
+}
+button,
+select,
+option {
+	cursor: pointer;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+	appearance: none;
 }
