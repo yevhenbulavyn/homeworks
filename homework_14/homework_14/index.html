@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Homework_14</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__title">
+					<h1>Homework 14</h1>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<div class="page__container">
+				<section class="page__contact contact">
+					<form action="#" enctype="multipart/form-data" class="contact__form">
+						<div class="contact__name">
+							<label for="name">Your name</label>
+							<input id="name" type="text" placeholder="Abc" name="form[]" required />
+						</div>
+						<div class="contact__mail">
+							<label for="mail">Email address</label>
+							<input id="mail" type="email" placeholder="Abc@def.com" name="form[]" required />
+						</div>
+						<div class="contact__subject">
+							<label for="subject">Subject</label>
+							<input id="subject" type="text" placeholder="This is an optional" name="form[]" />
+						</div>
+						<div class="contact__message">
+							<label for="message">Message</label>
+							<textarea name="form[]" id="message" placeholder="Hi! i’d like to ask about"></textarea>
+						</div>
+						<div class="contact__submit">
+							<button type="submit" class="contact__button">Submit</button>
+						</div>
+					</form>
+				</section>
+
+
+				<section class="page__product product">
+					<h2 class="product__label">Size</h2>
+					<div class="product__size">
+						<input type="radio" name="size" id="sie-l" checked />
+						<label for="size-l">L</label>
+						<input type="radio" name="size" id="size-xl" />
+						<label for="size-xl">XL</label>
+						<input type="radio" name="size" id="size-xs" />
+						<label for="size-xs">XS</label>
+					</div>
+					<div class="product__label">Color</div>
+					<div class="product__color color">
+						<input type="radio" name="color" id="color-purple" checked />
+						<label for="color-purple" class="color__purple"></label>
+						<input type="radio" name="color" id="color-black" />
+						<label for="color-black" class="color__black"></label>
+						<input type="radio" name="color" id="color-orange" />
+						<label for="color-orange" class="color__orange"></label>
+					</div>
+				</section>
+			</div>
+		</main>
+		<footer class="footer"> Yevhen Bulavyn 2026</footer>
+	</div>
+</body>
+
+</html>
