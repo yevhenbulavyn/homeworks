@@ -4,11 +4,7 @@ body {
 	line-height: 1.5;
 }
 
-input {
-	position: relative;
-	z-index: 10;
-	pointer-events: auto;
-} 
+
 
 .wrapper {
 	min-height: 100%;
