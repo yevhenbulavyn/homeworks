@@ -132,7 +132,6 @@ body {
 .product__size input[type="radio"]:checked + label {
    background: #b8934a;
    color: #fff; */
-	box-shadow: 0px 4px 14px rgba(184,147.74,0,35);
 }
 
 .product__color {
