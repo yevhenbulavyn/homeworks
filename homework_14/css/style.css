@@ -131,7 +131,7 @@ body {
 
 .product__size input[type="radio"]:checked + label {
    background: #b8934a;
-   color: #fff; */
+   color: #fff; 
 }
 
 .product__color {
