@@ -149,7 +149,6 @@ body {
 }
 
 .block__subheader {
-	font-family: var(--font-family);
 	font-weight: 600;
 	font-size: 20px;
 	text-align: center;
